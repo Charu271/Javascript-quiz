@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="quiz.js"></script>
+<body >
+<div style="">
+<span style="margin-left:900px;background-color:lightgreen; height:25px; font-size:30px;">Timer:</span>
+<span id="time" style="margin-left:0px; background-color:lightgreen; height:25px; font-size:30px;"></span><br/>
+<table>
+
+<tr><td><a href="#1ques">1</a></td><td><a href="#2ques">2</a></td><td><a href="#3ques">3</a></td><td><a href="#4ques">4</a></td><td><a href="#5ques">5</a></td><td><a href="#6ques">6</a></td><td><a href="#7ques">7</a></td><td><a href="#8ques">8</a></td><td><a href="#9ques">9</a></td><td><a href="#10ques">10</a></td></tr>
+</table>
+
+</div>
+<h4 ><a name="1ques">1. Inside which HTML element do we put the JavaScript?</a></h4>
+<input type="radio" name="1" onclick="myfun1();" id="a1" value="script" ><div id="quiz"><label id="q1t">script</label></div><br/><br/>
+<input type="radio" name="1" onclick="myfun1();" id="b1" value="javascript"><div id="quiz"><label id="q1f1">javascript</label></div><br/><br/>
+<input type="radio" name="1" onclick="myfun1(); " id="c1" value="js"><div id="quiz"><label id="q1f2" >js</label ></div><br/><br/>
+<input type="radio" name="1" onclick="myfun1();" id="d1" value="scripting"><div id="quiz"><label id="q1f3">scripting</label></div><br/><br/>
+<span id="result1" style="visibility:hidden;"></span>
+<h4><a name="2ques">2. What is the correct JavaScript syntax to change the content of the HTML element below?</a><br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt p id="demo" &gtThis is a demonstration.&lt/p&gt </h4>
+<input type="radio" name="2" onclick="myfun2();" id="a2" value='document.getElement("p").innerHTML="Hello world"' ><div id="quiz"><label id="q2f1">document.getElement("p").innerHTML="Hello world";</label></div><br/><br/>
+<input type="radio" name="2" onclick="myfun2();" id="b2" value='document.getElementByName("p").innerHTML="Hello world"'><div id="quiz"><label id="q2f2">document.getElementByName("p").innerHTML="Hello world";</label></div><br/><br/>
+<input type="radio" name="2" onclick="myfun2(); " id="c2" value='document.getElementById("demo").innerHTML="Hello world"'><div id="quiz"><label id="q2t">document.getElementById("demo").innerHTML="Hello world";</label></div><br/><br/>
+<input type="radio" name="2" onclick="myfun2();" id="d2" value='document.getRElementbyId("demo").innerHTML="Hello world"'><div id="quiz"><label id="q2f3">document.getElementbyId("demo").innerHTML="Hello world";</label></div><br/><br/>
+<span id="result2" style="visibility:hidden;"></span>
+<h4><a name="3ques">3. Where is the correct place to insert a JavaScript?</a></h4>
+<input type="radio" name="3" onclick="myfun3();" id="a3" value="head" ><div id="quiz"><label id="q3f1">&lt head &gt section</label></div><br/><br/>
+<input type="radio" name="3" onclick="myfun3();" id="b3" value="body"><div id="quiz"><label id="q3f2">&lt body &gt section</label></div><br/><br/>
+<input type="radio" name="3" onclick="myfun3(); " id="c3" value="both"><div id="quiz"><label id="q3t">Both &lt head &gt and &lt body &gt section</label></div><br/><br/>
+<input type="radio" name="3" onclick="myfun3();" id="d3" value="none"><div id="quiz"><label id="q3f3">None of the above</label></div><br/><br/>
+<span id="result3" style="visibility:hidden;"></span>
+<h4><a name="4ques">4. What is the correct syntax for referring to an external script called "xxx.js"?</a></h4>
+<input type="radio" name="4" onclick="myfun4();" id="a4" value="href" ><div id="quiz"><label id="q4f1">&lt script href="xxx.js" &gt </label></div><br/><br/>
+<input type="radio" name="4" onclick="myfun4();" id="b4" value="src"><div id="quiz"><label id="q4t">&lt script src="xxx.js" &gt </label></div><br/><br/>
+<input type="radio" name="4" onclick="myfun4(); " id="c4" value="name"><div id="quiz"><label id="q4f2">&lt script name="xxx.js" &gt </label></div><br/><br/>
+<input type="radio" name="4" onclick="myfun4();" id="d4" value="none"><div id="quiz"><label id="q4f3">None of the above</label></div><br/><br/>
+<span id="result4" style="visibility:hidden;"></span>
+<h4><a name="5ques">5. The external JavaScript file must contain the &lt script &gt tag.</a></h4>
+<input type="radio" name="5" onclick="myfun5();" id="a5" value="true" ><div id="quiz"><label id="q5t">True</label></div><br/><br/>
+<input type="radio" name="5" onclick="myfun5();" id="b5" value="false"><div id="quiz"><label id="q5f1">False</label></div><br/><br/>
+<span id="result5" style="visibility:hidden;"></span>
+<h4><a name="6ques">6. How do you write "Hello World" in an alert box?</a></h4>
+<input type="radio" name="6" onclick="myfun6();" id="a6" value="msg" ><div id="quiz"><label id="q6f1">msg("Hello World") </label></div><br/><br/>
+<input type="radio" name="6" onclick="myfun6();" id="b6" value="alert"><div id="quiz"><label id="q6t">alert("Hello World") </label></div><br/><br/>
+<input type="radio" name="6" onclick="myfun6(); " id="c6" value="msgbox"><div id="quiz"><label id="q6f2">msgBox("Hello World") </label></div><br/><br/>
+<input type="radio" name="6" onclick="myfun6();" id="d6" value="alertbox"><div id="quiz"><label id="q6f3">alertBox("Hello World")</label></div><br/><br/>
+<span id="result6" style="visibility:hidden;"></span>
+<h4><a name="7ques">7. How do you create a function in JavaScript?</a></h4>
+<input type="radio" name="7" onclick="myfun7();" id="a7" value=":" ><div id="quiz"><label id="q7f1">function:myFunction()</label></div><br/><br/>
+<input type="radio" name="7" onclick="myfun7();" id="b7" value="="><div id="quiz"><label id="q7f2">function=myFunction()</label></div><br/><br/>
+<input type="radio" name="7" onclick="myfun7(); " id="c7" value=" "><div id="quiz"><label id="q7t">function myFunction()</label></div><br/><br/>
+<span id="result7" style="visibility:hidden;"></span>
+<h4><a name="8ques">8. How do you call a function named "myFunction"?</a></h4>
+<input type="radio" name="8" onclick="myfun8();" id="a8" value=" " ><div id="quiz"><label id="q8t">myFunction()</label></div><br/><br/>
+<input type="radio" name="8" onclick="myfun8();" id="b8" value="call"><div id="quiz"><label id="q8f1">call myFunction()</label></div><br/><br/>
+<input type="radio" name="8" onclick="myfun8(); " id="c8" value="call fun"><div id="quiz"><label id="q8f2">call function myFunction()</label></div><br/><br/>
+<span id="result8" style="visibility:hidden;"></span>
+<h4><a name="9ques">9. How can you add a comment in a JavaScript?</a></h4>
+<input type="radio" name="9" onclick="myfun9();" id="a9" value="<>" ><div id="quiz"><label id="q9f1">&lt !-- This is a comment-- &gt </label></div><br/><br/>
+<input type="radio" name="9" onclick="myfun9();" id="b9" value="//"><div id="quiz"><label id="q9t">//This is a comment</label></div><br/><br/>
+<input type="radio" name="9" onclick="myfun9(); " id="c9" value="'"><div id="quiz" ><label id="q9f2">' This is a comment</label></div><br/><br/>
+<span id="result9" style="visibility:hidden;"></span>
+<h4><a name="10ques">10.How can you detect the client's browser name?</a> </h4>
+<input type="radio" name="10" onclick="myfun10();" id="a10" value="navigator" ><div id="quiz"><label id="q10t">navigator.appName</label></div><br/><br/>
+<input type="radio" name="10" onclick="myfun10();" id="b10" value="browser"><div id="quiz"><label id="q10f1">browser.name</label></div><br/><br/>
+<input type="radio" name="10" onclick="myfun10(); " id="c10" value="client"><div id="quiz"><label id="q10f2">client.navName</label></div><br/><br/>
+<span id="result10" style="visibility:hidden;"></span><br/><br/>
+<button onclick="fun(); "id="btn">Submit</button><br/><br/>
+<span id="result"></span>
+</head>
+</body>
+</html>
