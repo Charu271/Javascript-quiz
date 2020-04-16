@@ -1,0 +1,54 @@
+input{
+
+padding:10px 10px 10px 20 px;
+background-color:white;
+margin-right:10px;
+}
+#quiz{
+	background-color:#F4F6F6;
+	height:20 px;
+	width:600px;
+	display:inline-block;
+	padding:10px 10px 10px 20px;
+	font-size:20px;
+	}
+span{
+	margin-left:25px;
+	font-size:18px;
+}
+h4{
+	font-size:25px;
+}
+#btn{
+	font-size:25px;
+	background-color:green;
+	color:white;
+	margin-left:850px;
+	padding: 10px 10px;
+}
+#result
+{
+	margin-left:350px;
+	font-size:25px;
+	font-weight:bold;
+	background-color:white;
+	}
+body{
+	margin-left:200px;
+	
+}	
+td a{
+	border:1px black solid;
+	text-decoration: none;
+	color:black;
+	font-size:20px;
+	width:25px;
+	padding:10px 10px 10px 10px;
+	background-color:lightgreen;
+	
+}	
+table{
+	
+border-collapse:collapse;
+margin-left:300px;
+}
