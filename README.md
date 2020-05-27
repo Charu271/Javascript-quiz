@@ -1,2 +1,2 @@
 # javascript-quiz
-Visit this site and try the quiz : [Javascript Quiz]( https://charu271.github.io/javascript-quiz/index.html)
+Visit this site and try the quiz : [Javascript Quiz]( https://charu271.github.io/Javascript-quiz/index.html)
